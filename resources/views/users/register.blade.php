@@ -6,6 +6,7 @@
 @if(session()->has('contmsg'))
     <div class="alert alert-success">{{session()->get('contmsg')}}</div>
 @endif
+<h1>yes</h1>
 <h2 class="text-center">Registration Form</h1>
                 <form method="post" class="my-5" autocomplete=off>
                     @csrf
